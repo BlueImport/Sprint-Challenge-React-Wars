@@ -5,10 +5,10 @@ import CardData from './components/CardData';
 const App = () => {
  
  return (
-<div className="App">
-<h1 className="Header">React Wars</h1>
-<CardData />
-</div>
+  <div className="App">
+    <h1 className="Header">React Wars</h1>
+    <CardData />
+  </div>
   );
 }	
 

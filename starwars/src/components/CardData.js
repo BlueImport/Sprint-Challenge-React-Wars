@@ -26,16 +26,16 @@ import {Container, Row} from 'bootstrap/dist/css/bootstrap.min.css';
     return (
         <Container>
             <Row>
-            {person.map((person, index) => {
+            {person.map((char, index) => {
                 return (
                 <StarWarsCard
                     key = {index}
-                    name = {person.name} 
-                    gender = {person.gender}
-                    hair = {person.hair_color}
-                    eyes = {person.eye_color}
-                    birthYear = {person.birth_year}
-                    species = {person.species}
+                    name = {char.name} 
+                    gender = {char.gender}
+                    hair = {char.hair_color}
+                    eyes = {char.eye_color}
+                    birthYear = {char.birth_year}
+                    species = {char.species}
 
                 />
                 )
